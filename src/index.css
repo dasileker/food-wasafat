@@ -1,31 +1,48 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
     monospace;
 }
 
 .navber {
   padding: 20px;
 }
-.recipe-nav{
+
+.recipe-nav {
   padding-left: 50px;
 }
+
 /* .logo {
-   width: 100%; 
+   width: 100%;
 } */
-.nav-menu ul{
+.nav-menu ul {
   display: flex;
   margin: 0;
 }
-.nav-menu ul > li{
+
+.nav-menu ul > li {
   /* padding: 20px; */
   list-style: none;
 }
@@ -33,11 +50,11 @@ code {
 .nav-menu ul > li a {
   text-decoration: none;
   padding: 10px;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu ul > li a:hover {
-  color:black;
+  color: black;
 }
 
 .header {
@@ -47,14 +64,14 @@ code {
 }
 
 .header-hero {
-  background-image:  linear-gradient(rgba(241, 81, 37, 0.3), rgba(241, 81, 37, 0.3)), url("./images/homeBcg.jpeg");
+  background-image: linear-gradient(rgba(241, 81, 37, 0.3), rgba(241, 81, 37, 0.3)), url("./images/homeBcg.jpeg");
 }
 
 .default-hero {
-   background-image:  linear-gradient(rgba(241, 81, 37, 0.3), rgba(241, 81, 37, 0.3)), url("./images/defaultBcg.jpeg");
+  background-image: linear-gradient(rgba(241, 81, 37, 0.3), rgba(241, 81, 37, 0.3)), url("./images/defaultBcg.jpeg");
 }
 
-.header-box{
+.header-box {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -62,16 +79,17 @@ code {
   transform: translate(-50%, -50%);
   color: #f8f9fa;
 }
-.header-box .title{
+
+.header-box .title {
   font-family: "Courgette", cursive;
   font-size: 5rem;
 }
 
-.search-btn .MuiButton-label{
+.search-btn .MuiButton-label {
   font-size: 25px;
 }
 
-.search-link-btn{
+.search-link-btn {
   text-decoration: none;
 }
 
@@ -105,10 +123,10 @@ code {
   margin-bottom: 30px !important;
   margin-right: 40px !important;
 }
-.recipe-root .MuiPaper-root{
-  height: 100%  !important;
-}
 
+.recipe-root .MuiPaper-root {
+  height: 100% !important;
+}
 
 .media {
   height: 0;
@@ -127,41 +145,50 @@ code {
   align-items: center;
   margin-bottom: 30px;
 }
+
 .ingredent .title {
-    font-weight: bold;
-    margin-bottom: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
+
 table {
-  width:70%;
+  width: 70%;
 }
-table, th, td {
+
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
   width: 52%;
   padding: 15px;
   text-align: left;
 }
 
-
 @media only screen and (max-width: 800px) {
   .recipe-root {
-    margin-right: 0px !important;
+    margin-right: 0 !important;
   }
+
   table {
-    width:100% !important;
+    width: 100% !important;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .recipe-root {
-    margin-right: 0px !important;
+    margin-right: 0 !important;
   }
-  .recipe-card{
+
+  .recipe-card {
     width: 100% !important;
   }
-  .recipe-nav{
-    padding-left: 0px;
+
+  .recipe-nav {
+    padding-left: 0;
   }
 }
