@@ -100,6 +100,11 @@ button:hover {
   font-size: 5rem;
 }
 
+.search-btn {
+  width: 200px;
+  height: 100px;
+}
+
 .search-btn .MuiButton-label {
   font-size: 25px;
 }
