@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f15025;
 }
 
 code {
@@ -34,9 +35,23 @@ code {
   padding-left: 50px;
 }
 
-/* .logo {
-   width: 100%;
-} */
+img {
+  width: 110%;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background: #05eeb4;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0b7ff3;
+}
+
 .nav-menu ul {
   display: flex;
   margin: 0;

@@ -23,10 +23,18 @@ function Navber() {
           <nav className="nav-menu">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">
+                  <button type="button">
+                    Home
+                  </button>
+                </Link>
               </li>
               <li>
-                <Link to="/recipes">Recipes</Link>
+                <Link to="/recipes">
+                  <button type="button">
+                    Recipes
+                  </button>
+                </Link>
               </li>
             </ul>
           </nav>
