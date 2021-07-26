@@ -80,7 +80,7 @@ const IngredientsList = () => {
           <p>
             {i.strInstructions}
           </p>
-          <Link to="/">Back to Home</Link>
+          <Link to="/"><button type="button">Back to Home</button></Link>
         </Segment>
       ))}
     </Container>
