@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# food-wasafat
+# React Capstone Project.
+- After finishing the curiculum of react, we are supposed to do a final Project to show our gained knowledge.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# food-wasafat.
 
-In the project directory, you can run:
+- Is a REACT App the porpose of it is to create a food recipe app with APi, that fetsh the food category + ingredients (WASAFAT) is an arabic dialect wich it means in English recipes.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Live demo link
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a href="https://wasafaty.netlify.app/"><img src='https://www.netlify.com/img/deploy/button.svg'></a>
 
-### `npm test`
+# Screenshot of the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![home page](wasafat.png)
+![home page](wasafat1.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Loom Video link
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Loom video redo.](https://www.loom.com/share/146dfd8460124febb432005e2123861d)
+- [Loom video redo 2.](https://www.loom.com/share/146dfd8460124febb432005e2123861d)
 
-### `npm run eject`
+## In this project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React & Redux.
+- TheMealDB API.
+- Linters.
+- Workflow.
+- Netlify for deploy.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# How it's work.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Go to [Github repo food wasafat](https://github.com/dasileker/food-wasafat/).
 
-## Learn More
+- Clone the repo: [https://github.com/dasileker/food-wasafat.git].
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Cd to the cloned repo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Open the terminal and type: npm install.
 
-### Code Splitting
+- YAY, now you can type npm start to see the work.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Author
+## **Zerradi Amine**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Github [@dasileker](https://www.github.com/dasileker).
+- LinkedIn [@LinkedIn](https://www.linkedin.com/in/amine-zerradi).
+- Twitter [@dasileker](https://www.twitter.com/dasileker).
 
-### Making a Progressive Web App
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ - Give A  thumb-up 👍 if you like it.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ ## License 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - This project is MIT license
