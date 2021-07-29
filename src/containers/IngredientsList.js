@@ -5,6 +5,7 @@ import {
 } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { fetchIngredientsStartAsync } from '../actions/getIngredients';
+import '../App.css';
 
 const IngredientsList = () => {
   const ingredients = useSelector(state => state.ingredients.ingredients);
@@ -49,7 +50,7 @@ const IngredientsList = () => {
           <h2>{i.strMeal}</h2>
           <Image src={i.strMealThumb} size="medium" centered />
           <Container style={{ margin: 30 }}>
-            <Table basic="very" celled style={{ margin: 'auto' }}>
+            <Table basic="very" celled style={{ width: '70%', margin: 'auto' }}>
               <Table.Header>
                 <Table.Row>
                   <Table.HeaderCell>Ingredient</Table.HeaderCell>
@@ -76,11 +77,11 @@ const IngredientsList = () => {
               </Table.Body>
             </Table>
           </Container>
-          <h4>Instructions</h4>
-          <p>
+          <h2 style={{ color: 'blue' }}>Instructions</h2>
+          <p style={{ fontSize: 15 }}>
             {i.strInstructions}
           </p>
-          <Link to="/"><button type="button">Back to Home</button></Link>
+          <Link to="/"><button type="button" style={{ background: 'black', color: 'white' }}>Back to Home</button></Link>
         </Segment>
       ))}
     </Container>
